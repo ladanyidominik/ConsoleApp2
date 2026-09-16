@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class NewClass
+    public class NewClass
     {
+        public string? Name { get; set; }
+        public string? Description { get; set; }
     }
 }
